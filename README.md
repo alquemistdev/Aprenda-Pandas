@@ -16,13 +16,14 @@ pip install pandas
 ```
 
 ## Importando Pandas
+Para usar o pandas bastar usar o comando:
 ```python
 import pandas as pd
 ```
-lendo um arquivo csv 
+e instânciar um dataframe por usar um csv ou json:
 ```python
 # Você pode baixar a pasta ou trocar esse caminho pelo link do github
-df = pd.read_csv("data/minecraft.csv", encoding="UTF-8", sep=",")
+df = pd.read_csv("link do arquivo", encoding="UTF-8", sep=",")
 ```
 
 ## Principais Comandos
